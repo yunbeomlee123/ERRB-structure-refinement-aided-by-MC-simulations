@@ -15,7 +15,7 @@
 
 using namespace std;
 
-const char deoxy_PDB[250] = "AAA";
+const char deoxy_PDB[250] = "AAAA";
 const char carboxy_int_file[230] = "BBB";
 const char reducedmass[250] = "CCC";
 const char formfactor[250]  = "DDD";
