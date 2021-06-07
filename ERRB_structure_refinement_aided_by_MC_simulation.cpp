@@ -15,37 +15,37 @@
 
 using namespace std;
 
-const char deoxy_PDB[250] = "AAAA";
+const char deoxy_PDB[250] = "AAA";
 const char carboxy_int_file[230] = "BBB";
 const char reducedmass[250] = "CCC";
 const char formfactor[250]  = "DDD";
 const char exp_curve[250] = "EEE";
 
-const int Nq = 120, qini = 13; //
+const int Nq = GGG, qini = HHH; //
 
-const int num_of_atom_protein = 2333; //
-const int num_of_water = 11; //
-const int num_of_rb = 18; //
-const int num_of_loop = 14; //
-const int HIS_101_NE2_A = 775; //
+const int num_of_atom_protein = III; //
+const int num_of_water = JJJ; //
+const int num_of_rb = KKK; //
+const int num_of_loop = LLL; //
+const int HIS_101_NE2_A = MMM; //
 const int HIS_101_NE2_B = HIS_101_NE2_A + (num_of_atom_protein-num_of_water)/2;//
-const int HIS_101_rb=5; //
-const int Fe_A = 1158; //
+const int HIS_101_rb= OOO; //
+const int Fe_A = PPP; //
 const int Fe_B = Fe_A+(num_of_atom_protein-num_of_water)/2;
-const int Fe_rb = 8; //
-const double Fe_HIS_101 = 2.1; //
-const int HEM_A_NC = 1157; //
+const int Fe_rb = QQQ; //
+const double Fe_HIS_101 = RRR; //
+const int HEM_A_NC = SSS; //
 const int HEM_B_NC = HEM_A_NC+(num_of_atom_protein-num_of_water)/2;
 const int subunit_atom = (num_of_atom_protein-num_of_water)/2;
-const int ini_helix_aa[num_of_rb/2] ={2,12,29,45,64,87,108,129,147};
+const int ini_helix_aa[num_of_rb/2] ={TTT};
 
-double fine_tune_crit = 150;
-const double chi2_crit = 100.; // candidate chi2 criteria
+double fine_tune_crit = UUU;
+const double chi2_crit = VVV.; // candidate chi2 criteria
 
-double chi2_scale = 0.2;
+double chi2_scale = WWW;
 
 
-const int ini_loop_aa[num_of_loop/2]={10,26,44,51,83,104,125};
+const int ini_loop_aa[num_of_loop/2]={XXX};
 
 const int HIS_101_rb_B = HIS_101_rb + num_of_rb/2;
 const int Fe_rb_B = Fe_rb + num_of_rb/2;
